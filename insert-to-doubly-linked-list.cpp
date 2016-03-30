@@ -4,16 +4,15 @@
     Insert Node in a doubly sorted linked list 
     After each insertion, the list should be sorted
    Node is defined as*/
-   struct Node
-   {
-     int data;
-     Node *next;
-     Node *prev;
-   };
+struct Node{
+  int data;
+  Node *next;
+  Node *prev;
+};
 
 using namespace std;
 
-Node* SortedInsert(Node *head,int data)
+Node* SortedInsert(Node* head, int data)
 {
     Node* temp = new Node;
     temp->data = data;
