@@ -70,7 +70,7 @@ void printList(Node* head){
 }
 
 int main(){
-  Node* head;
+  Node* head = NULL;
   
   head = SortedInsert(head, 5);
   head = SortedInsert(head, 2);
